@@ -4,8 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "lint:start": "ng lint && ng serve",
     "build": "ng build",
+    "lint:build": "ng lint && ng build",
     "test": "ng test",
+    "lint:test": "ng lint && ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
